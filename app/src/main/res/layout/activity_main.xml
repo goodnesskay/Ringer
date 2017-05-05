@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="ng.com.codebag.ringer.MainActivity"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_name"
+        android:layout_weight="0.34"
+        android:layout_gravity="center"
+        android:layout_marginTop="84dp"
+        android:contentDescription="Just an image" />
+
+    <Button
+        android:id="@+id/toggle_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="Toggle button"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorBlack"
+        android:width="165dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>
